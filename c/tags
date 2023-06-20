@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+_pkt	jolt2.c	/^struct _pkt$/;"	s	file:
+acnt	thread/atomic.c	/^atomic_int acnt;$/;"	v
+cnt	thread/atomic.c	/^int cnt;$/;"	v
+data	jolt2.c	/^   char data;$/;"	m	struct:_pkt	file:
+do_frags	jolt2.c	/^int do_frags (int sck, u_long src_addr, u_long dst_addr, int port)$/;"	f
+f	thread/atomic.c	/^int f(void* thr_data)$/;"	f
+host_to_ip	jolt2.c	/^u_long host_to_ip(char *host_name)$/;"	f
+icmp	jolt2.c	/^     struct icmphdr  icmp;$/;"	m	union:_pkt::__anon1	typeref:struct:_pkt::__anon1::icmphdr	file:
+icmplen	jolt2.c	/^int icmplen  = sizeof(struct icmphdr),$/;"	v
+ip	jolt2.c	/^   struct iphdr    ip;$/;"	m	struct:_pkt	typeref:struct:_pkt::iphdr	file:
+iplen	jolt2.c	/^     iplen    = sizeof(struct iphdr),$/;"	v
+main	implicit_conversion.c	/^int main() {$/;"	f
+main	init_var.c	/^int main() {$/;"	f
+main	jolt2.c	/^int main(int argc, char *argv[])$/;"	f
+main	peer2.c	/^int main() {$/;"	f
+main	socket.c	/^int main() {$/;"	f
+main	strtok_r.c	/^int main() {$/;"	f
+main	thread/atomic.c	/^int main(void)$/;"	f
+pkt	jolt2.c	/^} pkt;$/;"	v	typeref:struct:_pkt
+proto	jolt2.c	/^   }  proto;$/;"	m	struct:_pkt	typeref:union:_pkt::__anon1	file:
+quit	jolt2.c	/^void quit(char *reason)$/;"	f
+spf_sck	jolt2.c	/^     spf_sck;$/;"	v
+udp	jolt2.c	/^     struct udphdr   udp;$/;"	m	union:_pkt::__anon1	typeref:struct:_pkt::__anon1::udphdr	file:
+udplen	jolt2.c	/^     udplen   = sizeof(struct udphdr),$/;"	v
+usage	jolt2.c	/^void usage(char *pname)$/;"	f

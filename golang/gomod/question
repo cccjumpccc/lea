@@ -1,0 +1,5 @@
+1. go get是个傻瓜，他只要get了一个新包，且当前目录有go.mod，他就会把新包加到require里
+
+2. go get应该把包下载到$GOPATH/pkg/mod下
+
+3. go run或者go build应该自动下载包，如果没有自动下载，go mod tidy是首选，go get是次选
